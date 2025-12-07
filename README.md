@@ -106,7 +106,6 @@ enterprise-crm-sales-automation/
 └─ README.md
 
 
-README.md
 
 # Enterprise CRM & Sales Automation
 
@@ -125,6 +124,27 @@ React, Node.js, PostgreSQL, Redis (queues)
 - Configure DB, Redis, SMTP in .env
 - Run backend, start worker (npm run worker), run frontend
 
+enterprise-crm-sales-automation/
+├─ backend/
+├─ frontend/
+├─ workers/ (email queues)
+└─ README.md
+# Enterprise CRM & Sales Automation
+
+A lightweight CRM demonstrating lead management, sales pipelines, automated follow-ups, and team reporting.
+
+## Tech
+React, Node.js, PostgreSQL, Redis (queues)
+
+## Features
+- Lead capture & pipeline stages
+- Automated follow-ups via scheduled jobs
+- Team and lead analytics
+- Export and import CSV
+
+## Quickstart
+- Configure DB, Redis, SMTP in .env
+- Run backend, start worker (npm run worker), run frontend
 
 Deployment suggestions
 
